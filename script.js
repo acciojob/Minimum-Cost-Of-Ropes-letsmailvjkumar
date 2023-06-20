@@ -1,4 +1,4 @@
-document.getElementById("ropes-form").addEventListener("submit", function(event) {
+document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
     const input = document.getElementById("ropes-input").value;
     const ropes = input.split(",").map(Number);
